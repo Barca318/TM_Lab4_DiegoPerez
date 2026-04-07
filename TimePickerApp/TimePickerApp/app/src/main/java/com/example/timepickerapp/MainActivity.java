@@ -33,8 +33,8 @@ public class MainActivity extends AppCompatActivity {
         int mes = datePicker.getMonth() + 1;
         int anio = datePicker.getYear();
 
-        int hora = timePicker.getHour();     // ✅ CORRECTO
-        int minuto = timePicker.getMinute(); // ✅ CORRECTO
+        int hora = timePicker.getHour();     
+        int minuto = timePicker.getMinute();
 
         Toast.makeText(this,
                 "Fecha: " + dia + "/" + mes + "/" + anio +
